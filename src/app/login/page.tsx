@@ -14,7 +14,7 @@ export default function Login() {
             type="email"
             id="email"
             className={styles.input}
-            placeholder="Digite seu email"
+            placeholder="email"
             required
           />
 
@@ -25,14 +25,15 @@ export default function Login() {
             type="password"
             id="senha"
             className={styles.input}
-            placeholder="Digite sua senha"
+            placeholder="Password"
             required
           />
 
           <Link href="/shop" className={styles.button}>
-            Entrar
+            Login
           </Link>
         </form>
+        <p>Don't have an account yet? <a href="#">Sign up free</a></p>
       </main>
     </div>
   );

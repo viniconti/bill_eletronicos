@@ -10,7 +10,9 @@ const products = [
   { name: "Samsung Galaxy S24", price: "R$ 6.999" },
   { name: "Headphone Bluetooth", price: "R$ 899" },
   { name: 'Smart TV 55"', price: "R$ 3.499" },
-  { name: "Notebook Gamer", price: "R$ 5.999" },
+  { name: "Iphone 17 Pro", price: "R$ 11.499" },
+  { name: "Apple Watch", price: "R$ 5.499" },
+  { name: "Acer Nitro V", price: "R$ 4.699" },
 ];
 
 export default function Shop() {
